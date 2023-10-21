@@ -1,5 +1,32 @@
 ul, ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+img {
+    display: block;
+}
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-nav {
+    display: flex;
+}
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -32,6 +59,7 @@ color: var(--IRIS, #4D5AE5);
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .menu {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -40,6 +68,8 @@ color: var(--IRIS, #4D5AE5);
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        display: flex;
+        column-gap: 40px;
 }
 .menu-link {
     color: #2e2f42;
@@ -53,8 +83,12 @@ color: var(--IRIS, #4D5AE5);
 }
 .page-adress {
     font-style: normal;
+    display: flex;
 }
-
+.adress-list {
+    display: flex;
+    gap: 40px;
+}
 .adress-list-item {
 color: var(--SLATE, #434455);
     font-family: Roboto;
@@ -87,6 +121,9 @@ color: var(--WHITE, #FFF);
     line-height: 1.07;
     letter-spacing: 1.12px;
     background: var(--NAVY-BLUE, #2E2F42);
+    width: 472px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .content-button {
@@ -103,6 +140,19 @@ color: var(--WHITE, #FFF);
     background-color: #404BBF;
 }
 /* MAIN-CONTAINER: ADVANTAGES-SECTION */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .advantages-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Roboto;
@@ -122,6 +172,8 @@ color: var(--WHITE, #FFF);
 /* MAIN-CONTAINER: TEAM-SECTION */
 .team-section {
     background-color: #F4F4FD;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -132,9 +184,21 @@ color: var(--WHITE, #FFF);
         line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 72px;
+
+}
+.team-list {
+    display: flex;
+    column-gap: 24px;
 }
 .team-list-item {
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24) / 4);
+}
+.team-list-image {
+margin-bottom: 32px;
 }
 .team-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -144,6 +208,7 @@ color: var(--WHITE, #FFF);
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.4px;
+        margin-bottom: 8px;
 }
 .team-list-text {
     color: var(--SLATE, #434455);
@@ -153,6 +218,7 @@ color: var(--WHITE, #FFF);
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        padding-bottom: 32px;
 }
 
 /* MAIN-CONTAINER: PORTFOLIO-SECTION */
