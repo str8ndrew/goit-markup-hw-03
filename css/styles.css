@@ -60,6 +60,9 @@ color: var(--IRIS, #4D5AE5);
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 76px;
+    display: inline-block;
+    height: 24px;
+    margin-bottom: 16px;
 }
 .menu {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -109,6 +112,7 @@ color: var(--SLATE, #434455);
 /* MAIN-CONTAINER */
 .title-section {
     background-color: #2e2f42;
+    
 }
 
 
@@ -122,8 +126,11 @@ color: var(--WHITE, #FFF);
     letter-spacing: 1.12px;
     background: var(--NAVY-BLUE, #2E2F42);
     width: 472px;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
+    
+
+    
 }
 
 .content-button {
@@ -134,6 +141,9 @@ color: var(--WHITE, #FFF);
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        display: block;
+        margin: 0 auto;
+      
 }
 .content-button:hover,
 .content-button:focus {
@@ -153,6 +163,15 @@ color: var(--WHITE, #FFF);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.advantages-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.advantages-list {
+    display: flex;
+    column-gap: 24px;
+
+}
 .advantages-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Roboto;
@@ -160,6 +179,7 @@ color: var(--WHITE, #FFF);
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.4px;
+        margin-bottom: 8px;
 }
 .advantages-list-text {
     color: var(--SLATE, #434455);
@@ -168,6 +188,7 @@ color: var(--WHITE, #FFF);
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
+
 }
 /* MAIN-CONTAINER: TEAM-SECTION */
 .team-section {
@@ -222,6 +243,10 @@ margin-bottom: 32px;
 }
 
 /* MAIN-CONTAINER: PORTFOLIO-SECTION */
+.portfolio-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .portfolio-title {
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
@@ -231,6 +256,26 @@ margin-bottom: 32px;
         line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 72px;
+}
+.portfolio-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  
+   
+}
+.portfolio-list-item {
+    width: calc((100% - 2 * 24) / 3)
+    column-gap: 24px;
+
+}
+.portfolio-list-image {
+    margin-bottom: 32px;
+ 
 }
 .portfolio-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -239,6 +284,7 @@ margin-bottom: 32px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.4px;
+        margin-bottom: 8px;
 }
 .portfolio-list-text {
     color: var(--SLATE, #434455);
@@ -247,6 +293,7 @@ margin-bottom: 32px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        padding-bottom: 32px;
 }
 /* /> MAIN-CONTAINER */
 
@@ -262,6 +309,7 @@ background-color: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.32px;
         background-color: var(--NAVY-BLUE, #2E2F42);
+        display: flex;
 }
 .studio-style {
     color: #f4f4fd;
