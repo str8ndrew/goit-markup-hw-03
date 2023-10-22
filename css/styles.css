@@ -26,8 +26,7 @@ img {
     align-items: center;
 }
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+   padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 body {
@@ -76,9 +75,7 @@ color: var(--IRIS, #4D5AE5);
         display: flex;
         gap: 40px;
 }
-.padding-list-item {
-    padding: 24px 0;
-}
+
 .menu-link {
     color: #2e2f42;
 }
