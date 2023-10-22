@@ -78,7 +78,7 @@ color: var(--IRIS, #4D5AE5);
         display: flex;
         gap: 40px;
 }
-.menu-item {
+.menu-item-padding {
   padding: 24px 0;
 }
 
@@ -183,7 +183,7 @@ color: var(--WHITE, #FFF);
     display: flex;
     gap: 24px;
 }
-.advantage-list-item {
+.advantages-list-item {
     width: calc((100% - 72px) / 4);
 }
 .advantages-list-title {
