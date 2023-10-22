@@ -78,12 +78,9 @@ color: var(--IRIS, #4D5AE5);
         display: flex;
         gap: 40px;
 }
-.menu-item-padding {
-  padding: 24px 0;
-}
-
 .menu-link {
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .menu-link:hover,
