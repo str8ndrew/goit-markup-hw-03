@@ -64,9 +64,8 @@ color: var(--IRIS, #4D5AE5);
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-right: 76px;
-    display: inline-block;
     height: 24px;
-    margin-bottom: 16px;
+    
 }
 .menu {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -134,6 +133,7 @@ color: var(--WHITE, #FFF);
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
     
 
     
@@ -199,6 +199,7 @@ color: var(--WHITE, #FFF);
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        max-width: 264px;
 
 }
 /* MAIN-CONTAINER: TEAM-SECTION */
@@ -232,9 +233,7 @@ color: var(--WHITE, #FFF);
 .div-team-list {
     padding: 32px 0;
 }
-.team-list-image {
-margin-bottom: 32px;
-}
+
 .team-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
         text-align: center;
@@ -253,6 +252,7 @@ margin-bottom: 32px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        max-width: 264px;
 }
 
 /* MAIN-CONTAINER: PORTFOLIO-SECTION */
@@ -293,10 +293,6 @@ padding-bottom: 120px;
     border-top: none;
 
 }
-.portfolio-list-image {
-    margin-bottom: 32px;
- 
-}
 .portfolio-list-title {
     color: var(--NAVY-BLUE, #2E2F42);
         font-family: Roboto;
@@ -313,6 +309,7 @@ padding-bottom: 120px;
         font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.32px;
+        max-width: 264px;
 }
 /* /> MAIN-CONTAINER */
 
@@ -322,6 +319,10 @@ background-color: #2e2f42;
 padding: 100px 0;
 display: flex;
 }
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
         font-family: Roboto;
@@ -330,6 +331,7 @@ display: flex;
         line-height: 1.5;
         letter-spacing: 0.32px;
         background-color: var(--NAVY-BLUE, #2E2F42);
+        max-width: 264px;
 }
 .studio-style {
     color: #f4f4fd;
